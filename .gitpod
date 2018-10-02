@@ -1,0 +1,7 @@
+image:
+  file: Dockerfile
+ports:
+  - port: 6080
+    protocol: "http"
+tasks:
+  - command: "firefox https://www.youtube.com/watch?v=D41zSHJthZI"
